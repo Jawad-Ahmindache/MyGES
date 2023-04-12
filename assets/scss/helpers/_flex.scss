@@ -1,0 +1,677 @@
+//generate all helper classes for flexbox by classes
+@mixin flex{
+  display: flex;
+}
+
+@mixin flex-row{
+  flex-direction: row;
+}
+
+@mixin flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+@mixin flex-col{
+  flex-direction: column;
+}
+
+@mixin flex-col-reverse{
+  flex-direction: column-reverse;
+}
+
+@mixin flex-wrap{
+  flex-wrap: wrap;
+}
+
+@mixin flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+
+@mixin flex-nowrap{
+  flex-wrap: nowrap;
+}
+
+@mixin flex-grow{
+  flex-grow: 1;
+}
+
+@mixin flex-grow-0{
+  flex-grow: 0;
+}
+
+@mixin flex-shrink{
+  flex-shrink: 1;
+}
+
+@mixin flex-shrink-0{
+  flex-shrink: 0;
+}
+
+@mixin flex-no-wrap{
+  flex-wrap: nowrap;
+}
+
+@mixin flex-initial{
+  flex: 0 1 auto;
+}
+
+@mixin flex-1{
+  flex: 1 1 0%;
+}
+
+@mixin flex-auto{
+  flex: 1 1 auto;
+}
+
+@mixin flex-none{
+  flex: none;
+}
+
+@mixin flex-justify-start{
+  justify-content: flex-start;
+}
+
+@mixin flex-justify-end{
+  justify-content: flex-end;
+}
+
+@mixin flex-justify-center{
+  justify-content: center;
+}
+
+@mixin flex-justify-between{
+  justify-content: space-between;
+}
+
+@mixin flex-justify-around{
+  justify-content: space-around;
+}
+
+@mixin flex-justify-evenly{
+  justify-content: space-evenly;
+}
+
+@mixin flex-items-start{
+  align-items: flex-start;
+}
+
+@mixin flex-items-end{
+  align-items: flex-end;
+}
+
+@mixin flex-items-center{
+  align-items: center;
+}
+
+@mixin flex-items-baseline{
+  align-items: baseline;
+}
+
+@mixin flex-items-stretch{
+  align-items: stretch;
+}
+
+@mixin flex-content-start{
+  align-content: flex-start;
+}
+
+@mixin flex-content-end{
+  align-content: flex-end;
+}
+
+@mixin flex-content-center{
+  align-content: center;
+}
+
+@mixin flex-content-between{
+  align-content: space-between;
+}
+
+@mixin flex-content-around{
+  align-content: space-around;
+}
+
+@mixin flex-content-stretch{
+  align-content: stretch;
+}
+
+@mixin flex-self-auto{
+  align-self: auto;
+}
+
+@mixin flex-self-start{
+  align-self: flex-start;
+}
+
+@mixin flex-self-end{
+  align-self: flex-end;
+}
+
+@mixin flex-self-center{
+  align-self: center;
+}
+
+@mixin flex-self-baseline{
+  align-self: baseline;
+}
+
+@mixin flex-self-stretch{
+  align-self: stretch;
+}
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.justify-self-start {
+  justify-self: flex-start;
+}
+
+.justify-self-end {
+  justify-self: flex-end;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-self-stretch {
+  justify-self: stretch;
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-justify-around {
+  justify-content: space-around;
+}
+
+.flex-justify-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-items-start {
+  align-items: flex-start;
+}
+
+.flex-items-end {
+  align-items: flex-end;
+}
+
+.flex-items-center {
+  align-items: center;
+}
+
+.flex-items-baseline {
+  align-items: baseline;
+}
+
+.flex-items-stretch {
+  align-items: stretch;
+}
+
+.flex-content-start {
+  align-content: flex-start;
+}
+
+.flex-content-end {
+  align-content: flex-end;
+}
+
+.flex-content-center {
+  align-content: center;
+}
+
+.flex-content-between {
+  align-content: space-between;
+}
+
+.flex-content-around {
+  align-content: space-around;
+}
+
+.flex-content-stretch {
+  align-content: stretch;
+}
+
+.flex-self-auto {
+  align-self: auto;
+}
+
+.flex-self-start {
+  align-self: flex-start;
+}
+
+.flex-self-end {
+  align-self: flex-end;
+}
+
+.flex-self-center {
+  align-self: center;
+}
+
+.flex-self-baseline {
+  align-self: baseline;
+}
+
+.flex-self-stretch {
+  align-self: stretch;
+}
+
+.hover\:flex:hover {
+  display: flex;
+}
+
+.hover\:flex-row:hover {
+  flex-direction: row;
+}
+
+.hover\:flex-row-reverse:hover {
+  flex-direction: row-reverse;
+}
+
+.hover\:flex-col:hover {
+  flex-direction: column;
+}
+
+.hover\:flex-col-reverse:hover {
+  flex-direction: column-reverse;
+}
+
+.hover\:flex-wrap:hover {
+  flex-wrap: wrap;
+}
+
+.hover\:flex-wrap-reverse:hover {
+  flex-wrap: wrap-reverse;
+}
+
+.hover\:flex-nowrap:hover {
+  flex-wrap: nowrap;
+}
+
+.hover\:flex-grow:hover {
+  flex-grow: 1;
+}
+
+.hover\:flex-grow-0:hover {
+  flex-grow: 0;
+}
+
+.hover\:flex-shrink:hover {
+  flex-shrink: 1;
+}
+
+.hover\:flex-shrink-0:hover {
+  flex-shrink: 0;
+}
+
+.hover\:flex-no-wrap:hover {
+  flex-wrap: nowrap;
+}
+
+.hover\:flex-initial:hover {
+  flex: 0 1 auto;
+}
+
+.hover\:flex-1:hover {
+  flex: 1 1 0%;
+}
+
+.hover\:flex-auto:hover {
+  flex: 1 1 auto;
+}
+
+.hover\:flex-none:hover {
+  flex: none;
+}
+
+.hover\:flex-justify-start:hover {
+  justify-content: flex-start;
+}
+
+.hover\:flex-justify-end:hover {
+  justify-content: flex-end;
+}
+
+.hover\:flex-justify-center:hover {
+  justify-content: center;
+}
+
+.hover\:flex-justify-between:hover {
+  justify-content: space-between;
+}
+
+.hover\:flex-justify-around:hover {
+  justify-content: space-around;
+}
+
+.hover\:flex-justify-evenly:hover {
+  justify-content: space-evenly;
+}
+
+.hover\:flex-items-start:hover {
+  align-items: flex-start;
+}
+
+.hover\:flex-items-end:hover {
+  align-items: flex-end;
+}
+
+.hover\:flex-items-center:hover {
+  align-items: center;
+}
+
+.hover\:flex-items-baseline:hover {
+  align-items: baseline;
+}
+
+.hover\:flex-items-stretch:hover {
+  align-items: stretch;
+}
+
+.hover\:flex-content-start:hover {
+  align-content: flex-start;
+}
+
+.hover\:flex-content-end:hover {
+  align-content: flex-end;
+}
+
+.hover\:flex-content-center:hover {
+  align-content: center;
+}
+
+.hover\:flex-content-between:hover {
+  align-content: space-between;
+}
+
+.hover\:flex-content-around:hover {
+  align-content: space-around;
+}
+
+.hover\:flex-content-stretch:hover {
+  align-content: stretch;
+}
+
+.hover\:flex-self-auto:hover {
+  align-self: auto;
+}
+
+.hover\:flex-self-start:hover {
+  align-self: flex-start;
+}
+
+.hover\:flex-self-end:hover {
+  align-self: flex-end;
+}
+
+.hover\:flex-self-center:hover {
+  align-self: center;
+}
+
+.hover\:flex-self-baseline:hover {
+  align-self: baseline;
+}
+
+.hover\:flex-self-stretch:hover {
+  align-self: stretch;
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+
+    .#{$breakpoint}\:flex {
+      display: flex;
+    }
+
+    .#{$breakpoint}\:flex-row {
+      flex-direction: row;
+    }
+
+    .#{$breakpoint}\:flex-row-reverse {
+      flex-direction: row-reverse;
+    }
+
+    .#{$breakpoint}\:flex-col {
+      flex-direction: column;
+    }
+
+    .#{$breakpoint}\:flex-col-reverse {
+      flex-direction: column-reverse;
+    }
+
+    .#{$breakpoint}\:flex-wrap {
+      flex-wrap: wrap;
+    }
+
+    .#{$breakpoint}\:flex-wrap-reverse {
+      flex-wrap: wrap-reverse;
+    }
+
+    .#{$breakpoint}\:flex-nowrap {
+      flex-wrap: nowrap;
+    }
+
+    .#{$breakpoint}\:flex-grow {
+      flex-grow: 1;
+    }
+
+    .#{$breakpoint}\:flex-grow-0 {
+      flex-grow: 0;
+    }
+
+    .#{$breakpoint}\:flex-shrink {
+      flex-shrink: 1;
+    }
+
+    .#{$breakpoint}\:flex-shrink-0 {
+      flex-shrink: 0;
+    }
+
+    .#{$breakpoint}\:flex-no-wrap {
+      flex-wrap: nowrap;
+    }
+
+    .#{$breakpoint}\:flex-initial {
+      flex: 0 1 auto;
+    }
+
+    .#{$breakpoint}\:flex-1 {
+      flex: 1 1 0%;
+    }
+
+    .#{$breakpoint}\:flex-auto {
+      flex: 1 1 auto;
+    }
+
+    .#{$breakpoint}\:flex-none {
+      flex: none;
+    }
+
+    .#{$breakpoint}\:flex-justify-start {
+      justify-content: flex-start;
+    }
+
+    .#{$breakpoint}\:flex-justify-end {
+      justify-content: flex-end;
+    }
+
+    .#{$breakpoint}\:flex-justify-center {
+      justify-content: center;
+    }
+
+    .#{$breakpoint}\:flex-justify-between {
+      justify-content: space-between;
+    }
+
+    .#{$breakpoint}\:flex-justify-around {
+      justify-content: space-around;
+    }
+
+    .#{$breakpoint}\:flex-justify-evenly {
+      justify-content: space-evenly;
+    }
+
+    .#{$breakpoint}\:justify-self-start {
+      justify-self: flex-start;
+    }
+    
+    .#{$breakpoint}\:justify-self-end {
+      justify-self: flex-end;
+    }
+    
+    .#{$breakpoint}\:justify-self-center {
+      justify-self: center;
+    }
+    
+    .#{$breakpoint}\:justify-self-stretch {
+      justify-self: stretch;
+    }
+    
+    .#{$breakpoint}\:flex-items-start {
+      align-items: flex-start;
+    }
+
+    .#{$breakpoint}\:flex-items-end {
+      align-items: flex-end;
+    }
+
+    .#{$breakpoint}\:flex-items-center {
+      align-items: center;
+    }
+
+    .#{$breakpoint}\:flex-items-baseline {
+      align-items: baseline;
+    }
+
+    .#{$breakpoint}\:flex-items-stretch {
+      align-items: stretch;
+    }
+
+    .#{$breakpoint}\:flex-content-start {
+      align-content: flex-start;
+    }
+
+    .#{$breakpoint}\:flex-content-end {
+      align-content: flex-end;
+    }
+
+    .#{$breakpoint}\:flex-content-center {
+      align-content: center;
+    }
+
+    .#{$breakpoint}\:flex-content-between {
+      align-content: space-between;
+    }
+
+    .#{$breakpoint}\:flex-content-around {
+      align-content: space-around;
+    }
+
+    .#{$breakpoint}\:flex-content-stretch {
+      align-content: stretch;
+    }
+
+    .#{$breakpoint}\:flex-self-auto {
+      align-self: auto;
+    }
+
+    .#{$breakpoint}\:flex-self-start {
+      align-self: flex-start;
+    }
+
+    .#{$breakpoint}\:flex-self-end {
+      align-self: flex-end;
+    }
+
+    .#{$breakpoint}\:flex-self-center {
+      align-self: center;
+    }
+
+    .#{$breakpoint}\:flex-self-baseline {
+      align-self: baseline;
+    }
+
+    .#{$breakpoint}\:flex-self-stretch {
+      align-self: stretch;
+    }
+  }
+}
+

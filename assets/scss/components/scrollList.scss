@@ -1,0 +1,52 @@
+
+.scroll-list {
+    background: $ghost;
+    color:$light;
+
+    
+    @include flex;
+    @include flex-col; 
+    @include radius('xl');
+    .scroll-list-header {
+        @include grid;
+        @include grid-cols(12);
+        height: 60px;
+
+        border-bottom: 2px solid $accent;
+        & > div {
+            @include flex;
+            @include flex-items-center;
+            @include flex-justify-start;
+            @include p(5);
+        }
+        & > div:nth-child(1) {
+            @include col-span(9);
+            color: $light;
+            @include ft-w-bold;
+            @include ft-size-lg;
+        }
+
+        & > div:nth-child(2) {
+            @include col-span(3);
+            @include p(0);
+            @include flex-justify-center;
+            & > .sl-icon {
+                @include ft-size-2xl;
+                color: $accent;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .scroll-list-body {
+        @include flex;
+        @include flex-col;
+        @include flex-grow;
+        @include gap-y(10);
+        @include p(12);
+        overflow:hidden;
+        overflow-y: auto;
+        
+    }
+}
+
